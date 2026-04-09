@@ -1,46 +1,157 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <title>SonaOS</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="sonaOStitle.png" type="image/png">
-        <link rel="stylesheet" href="SonaOS.css">
-    </head>
-    <body>
-        <header class="navbar">
-            <div class="logo">
-                <img src="sonaOStitle.png" alt="sonaOSlogo" width="32" height="32">
-                <span>Sona</span>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SonaOS | Obsidian Grade Digital Experience</title>
+    <meta name="description"
+        content="SonaOS: A handcrafted, human-centric operating system for the discerning professional. Deeply stable, deeply black.">
+
+    <!-- Favicon -->
+    <link rel="icon" href="sonaOStitle.png" type="image/png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="SonaOS.css">
+</head>
+
+<body>
+    <div class="page-overlay"></div>
+    <div class="starfield"></div>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">
+            <img src="sonaOStitle.png" alt="SonaOS Logo">
+            <span>Sona</span>
+        </a>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="#about">The Core</a>
+            <a href="blog.html">Blog</a>
+            <a href="#downloads">Download</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero reveal">
+            <h1>Obsidian levels of focus.</h1>
+            <p class="centered">Technology shouldn't feel noisy. SonaOS is a quiet, handcrafted space for your digital
+                life.</p>
+
+            <div class="hero-image-container">
+                <img src="sonaOSprint.png" alt="SonaOS Obsidian Interface Preview" width="854" height="480">
             </div>
-            <nav class="menu">
-                <a href="#">Home</a>
-                <a href="#">Blog</a>
-                <a href="#">About</a>
-            </nav>
-        </header>
-        <h1>Unleash your productivity with SonaOS!</h1>
-        <p class="centered">Made by us, designed for you.</p>
-        <div>
-            <img src="sonaOSprint.png" alt="SonaOS Print" width="854" height="480">
-        </div>
-        <div class="button-container">
-            <button>Learn more</button>
-            <button>Download</button>
-        </div>
-        <div>
-            <h2>Why choose SonaOS?</h2>
-            <p>SonaOS is a powerful and silent operating system that offers a clean and pleasant experience. With its intuitive interface and robust features, SonaOS is designed to increase your productivity and provide a secure computing environment.</p>
-            <ul>
-                <li><strong>Simple and Consistent Interface:</strong> Powered by GNOME Desktop Environment, SonaOS provides a clean and intuitive user experience.</li>
-                <li><strong>Performance:</strong> The SonaOS team works hard to deliver exceptional performance on extremely new hardware as well as computers up to 15 years old.</li>
-                <li><strong>Stable:</strong> SonaOS is built on Debian 13 Trixie, ensuring a reliable and stable computing experience.</li>
-                <li><strong>Software Compatibility:</strong> Powered by the flatpak ecosystem, SonaOS provides seamless integration with a vast library of applications.</li>
-                <li><strong>Privacy respecting:</strong> SonaOS is committed to protecting your privacy and data security.</li>
+
+            <div class="button-container">
+                <div class="btn-group">
+                    <a href="#about" class="btn primary">The Difference</a>
+                    <a href="#downloads" class="btn secondary">Get SonaOS</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="manifesto reveal" id="manifesto">
+            <span class="manifesto-tag">Our Philosophy</span>
+            <div class="manifesto-text">
+                "Technology should wait for you, not the other way around. We believe in the beauty of silence, the
+                power of stability, and the fundamental right to a focused digital life."
+            </div>
+            <div class="signature">— The SonaOS Collective</div>
+        </section>
+
+        <section class="features-container reveal" id="about">
+            <h2 style="font-size: 2.5rem; text-align: center; margin-bottom: 4rem;">Built by hand, for you.</h2>
+            <ul class="features-grid" style="list-style: none;">
+                <li class="feature-card">
+                    <strong>Tactile Simplicity</strong>
+                    <p>Every interaction is weighed. Every pixel is placed with care. A system that actually makes
+                        sense.</p>
+                </li>
+                <li class="feature-card">
+                    <strong>Respectful Hardware</strong>
+                    <p>Optimized to the core. Whether it's a new powerhouse or an 15-year-old friend, SonaOS fits
+                        perfectly.</p>
+                </li>
+                <li class="feature-card">
+                    <strong>Inherently Stable</strong>
+                    <p>Based on Debian 13 "Trixie", providing a rock-solid foundation that never lets you down.</p>
+                </li>
+                <li class="feature-card">
+                    <strong>Privacy as a Right</strong>
+                    <p>No tracking. No corporate noise. Just you and your computer, the way it was meant to be.</p>
+                </li>
             </ul>
+        </section>
+
+        <section class="reveal">
+            <h2 style="text-align: center; margin-bottom: 4rem;">From the Blog</h2>
+            <div class="blog-grid">
+                <a href="blog.html" class="blog-card">
+                    <div class="blog-img">
+                        <img src="sonaOSprint.png" alt="Blog Post 1">
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="chip-container">
+                            <span class="chip featured">Philosophy</span>
+                        </div>
+                        <h3 class="blog-title">The Path to Obsidian</h3>
+                        <p class="blog-excerpt">Why we chose deep blacks and high contrast for focus.</p>
+                        <div class="reading-time">8 min read</div>
+                    </div>
+                </a>
+                <a href="blog.html" class="blog-card">
+                    <div class="blog-img">
+                        <img src="sonaOSprint.png" alt="Blog Post 2">
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="chip-container">
+                            <span class="chip">Craft</span>
+                        </div>
+                        <h3 class="blog-title">Human over Silicon</h3>
+                        <p class="blog-excerpt">Designing for the person, not the algorithm.</p>
+                        <div class="reading-time">5 min read</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="download-section reveal" id="downloads">
+            <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Coming soon to your desk.</h2>
+            <p class="centered" style="margin-bottom: 0;">We are currently polishing the first public release of
+                "Lumina".</p>
+
+            <div class="download-info-grid">
+                <div class="download-card coming-soon">
+                    <span class="version-badge">Lumina v1.0.4</span>
+                    <h3>SonaOS Standard</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;">The complete human-centric experience
+                        for x86_64 machines.</p>
+                    <button class="btn secondary" disabled>Coming Soon</button>
+                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: auto;">Size: unknown</div>
+                </div>
+
+                <div class="download-card">
+                    <span class="version-badge">Dev Branch</span>
+                    <h3>Early Access</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;">Interested in testing early builds?
+                        Follow our progress on GitHub.</p>
+                    <a href="https://github.com/astr-os" class="btn secondary">Follow Development</a>
+                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: auto;">Updated: April 2026
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="logo" style="opacity: 0.5;">
+            <img src="sonaOStitle.png" alt="SonaOS" style="width: 20px;">
+            <span>Sona</span>
         </div>
-        <h3>Powerful for everyone</h3>
-        <p>SonaOS is designed to be the perfect operating system for users of all skill levels, providing a seamless and efficient computing experience.</p>
-    </body>
+        <p style="margin-top: 1.5rem; color: #3f3f46; font-size: 0.8rem;">&copy; 2026 SonaOS Project. All rights
+            reserved.</p>
+    </footer>
+
     <script src="SonaOS.js"></script>
+</body>
+
 </html>
